@@ -41,8 +41,8 @@ use App\Http\Controllers\PostController;
 
 // Route::get('/post', [PostController::class, 'sshow']);
 
-// Route::get('/user/{name}',  [ArticleControllerr::class, 'showUser']);
-
+ Route::get('/user/{name}',  [ArticleControllerr::class, 'showUser']);
+ Route::get('/user/{name333321345}',  [ArticleControllerr::class, 'showUser']);
 
 ?>
 
