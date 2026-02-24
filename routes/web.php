@@ -37,12 +37,12 @@ use App\Http\Controllers\PostController;
 	// })->where('slug', '[a-z0-9_-]+');
 	
 
-	Route::get('/post/{id}', [PostController::class, 'usershow']);
+	// Route::get('/post/{id}', [PostController::class, 'usershow']);
 
-// Route::get('/post', [PostController::class, 'sshow']);
+	// Route::get('/post', [PostController::class, 'sshow']);
 
- Route::get('/user/{name}',  [ArticleControllerr::class, 'showUser']);
- Route::get('/user/{name333321345}',  [ArticleControllerr::class, 'showUser']);
+ 	Route::get('/user',  [PostController::class, 'show']);
+
 
 ?>
 

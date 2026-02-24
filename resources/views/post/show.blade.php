@@ -1,9 +1,10 @@
 <x-layout>
 	<x-slot:title>
-		{{ $title }} 
+		{{ $title }} - site.com
 	</x-slot>
 	
-		{{ $text }}
+	{{ $text }}
 </x-layout>
+
 
 
