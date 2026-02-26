@@ -1,13 +1,10 @@
 <x-layout>
 	<x-slot:title>
-		{{ $title }} - show.com
+		{{ $title }} - user.com
 	</x-slot>
-	{{ $text }}
+	
 	{{ $surname }}
 	{{ $texts }}
 	{{ $name }}
 	
 </x-layout>
-
-
-

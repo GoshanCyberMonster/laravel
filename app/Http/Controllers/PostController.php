@@ -6,9 +6,14 @@
 
 		public function show()
 		{
+			$name = 'POSTGeorgiy';
+			$surname = 'POSTMedvedev';
 			return view('post.show', [
-				'title' => 'page title',
-				'text' => 'page contdddent'
+				'title' => 'POST',
+				'text' => 'Surname',
+				'surname' => $surname,
+				'texts' => 'Name',
+				'name' => $name,
 			]);
 		}
 	}
