@@ -8,13 +8,8 @@
 		{
 			$name = 'USER1Georgiy';
 			$surname = 'USER1Medvedev';
-			return view('user.user', [
-				'title' => 'USER',
-				'text' => 'Surname',
-				'surname' => $surname,
-				'texts' => 'Name',
-				'name' => $name,
-			]);
+			$age = 18;
+			
 		}
         public function UserShowR()
         {
